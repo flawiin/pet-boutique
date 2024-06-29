@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    background-image: url(/assets/img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 120px 80px;
+}
+
+.header__box {
+    width: 250px;
+    color: #3c184e;
+
+}
+
+.header__box__img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.header__box__paragraph--primary {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.header__box__paragraph--secondary {
+    font-size: 14px;
+    text-align: center;
+}
+
+.header__content {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+    text-align: center;
+}
+
+.header__content__title {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+
+.header__content__link {
+    width: 200px;
+    background-color: #3c184e;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header__content__link__img {
+    width: 20px;
+}
+
+/* Primeira Sessão */
+
+.section {
+    padding: 120px 80px;
+}
+
+.services__title {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+
+}
+
+.services__list {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+    list-style: square;
+}
+
+.services__list__item {
+    font-size: 20px;
+    margin: 0 0 20px 0
+}
