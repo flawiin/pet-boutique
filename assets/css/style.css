@@ -6,6 +6,8 @@
     text-decoration: none;
 }
 
+/* CABEÇALHO */
+
 .header {
     width: 100%;
     background-image: url(/assets/img/banner-topo.jpg);
@@ -68,7 +70,7 @@
     width: 20px;
 }
 
-/* Primeira Sessão */
+/* PRIMEIRA SESSÃO*/
 
 .section {
     padding: 120px 80px;
@@ -93,3 +95,95 @@
     font-size: 20px;
     margin: 0 0 20px 0
 }
+
+.services__list__item__destaque, .redes-sociais__paragraph__destaque {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.services__img {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services__img img {
+    border-radius: 5px;
+    margin: 2px;
+    box-shadow: 3px 6px 10px 3px #0000005c;
+}
+
+/* TERCEIRA SESSÃO */
+
+.redes-sociais {
+    background-color: #3c184e;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.redes-sociais__paragraph {
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+}
+
+.redes-sociais__img {
+    width: 50px;
+    margin: 0 20px;
+}
+
+/* QUARTA SESSÃO */
+
+.marcas__title {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.marcas__box__img {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.marcas__img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* QUINTA SESSÃO */
+
+.onde-estamos {
+    text-align: center;
+}
+
+.onde-estamos__title {
+    font-size: 36px;
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+
+.onde-estamos__paragraph {
+    font-size: 20px;
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+
+/* SEXTA SESSÃO */
+
+.rodape {
+    padding: 10px 0;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.rodape a {
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
